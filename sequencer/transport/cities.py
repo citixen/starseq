@@ -1,0 +1,48 @@
+"""Preset location list for the 'preset' location source.
+
+Each entry is (display_name, lat, lon) in decimal degrees. Kept alphabetical
+so encoder navigation is predictable.
+"""
+
+PRESET_CITIES = [
+    ('Amsterdam',      52.3676,    4.9041),
+    ('Anchorage',      61.2181, -149.9003),
+    ('Auckland',      -36.8485,  174.7633),
+    ('Bangkok',        13.7563,  100.5018),
+    ('Beijing',        39.9042,  116.4074),
+    ('Berlin',         52.5200,   13.4050),
+    ('Buenos Aires',  -34.6037,  -58.3816),
+    ('Cairo',          30.0444,   31.2357),
+    ('Cape Town',     -33.9249,   18.4241),
+    ('Chicago',        41.8781,  -87.6298),
+    ('Delhi',          28.7041,   77.1025),
+    ('Dubai',          25.2048,   55.2708),
+    ('Honolulu',       21.3069, -157.8583),
+    ('Hong Kong',      22.3193,  114.1694),
+    ('Istanbul',       41.0082,   28.9784),
+    ('Jakarta',        -6.2088,  106.8456),
+    ('Johannesburg',  -26.2041,   28.0473),
+    ('Lagos',           6.5244,    3.3792),
+    ('London',         51.5072,   -0.1276),
+    ('Los Angeles',    34.0522, -118.2437),
+    ('Madrid',         40.4168,   -3.7038),
+    ('Mexico City',    19.4326,  -99.1332),
+    ('Moscow',         55.7558,   37.6173),
+    ('Mumbai',         19.0760,   72.8777),
+    ('Nairobi',        -1.2921,   36.8219),
+    ('New York',       40.7128,  -74.0060),
+    ('Paris',          48.8566,    2.3522),
+    ('Reykjavik',      64.1466,  -21.9426),
+    ('Rio de Janeiro', -22.9068,  -43.1729),
+    ('Rome',           41.9028,   12.4964),
+    ('San Francisco',  37.7749, -122.4194),
+    ('Santiago',       -33.4489,  -70.6693),
+    ('Seoul',           37.5665, 126.9780),
+    ('Shanghai',        31.2304, 121.4737),
+    ('Singapore',        1.3521, 103.8198),
+    ('Stockholm',       59.3293,  18.0686),
+    ('Sydney',         -33.8688, 151.2093),
+    ('Tokyo',           35.6762, 139.6503),
+    ('Toronto',         43.6532,  -79.3832),
+    ('Vancouver',       49.2827, -123.1207),
+]

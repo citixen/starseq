@@ -1,0 +1,8 @@
+skyfield
+mido
+python-rtmidi
+pygame
+pyserial
+numpy
+gpiozero
+lgpio
