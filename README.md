@@ -6,6 +6,8 @@ This project and all files in it represent the state of the project as it was du
 
 ## what starseq is
 
+![Image of the control interface for an 8-track sequencer, with a large number of coloured potentiometers and a perspex panel behind which can be seen a raspberry pi](https://github.com/citixen/starseq/blob/main/pics/outsides.png)
+
 **starseq** is an 8-track MIDI step sequencer whose musical content is generated from the real-time positions of naked-eye-visible stars in the sky above the instrument's physical location. Each of the 8 tracks claims a wedge ("slice") of the compass — a band of azimuth and a brightness threshold — and turns whichever stars currently sit inside that wedge into a step sequence: azimuth decides *when* (which step) a note falls, altitude decides *what pitch*, and brightness/colour decide *how loud* and *how long*. Because the sky moves, the sequences drift and evolve on their own, in real astronomical time or sped up/slowed/reversed via a simulated clock. Planets and constellation lines are drawn for visual context only currently — but the data is there for future uses.
 
 The instrument is physically and electronically a three-tier system:
