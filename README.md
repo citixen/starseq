@@ -1,5 +1,7 @@
 # starseq — project overview
 
+This project and all files in it represent the state of the project as it was during EMF Camp 2026, where it ran as an installation (in the baking sun) for 4 days. It largely worked without incident for that time and the concept and implementation are at least a bit proven. However, the project is offered as-is and without any ability to support it further if you decide to try building one for yourself. It all works in my build, but that doesn't mean it will for you. I may have forgotten critical setup components, and I may have done something weird and forgotten to document it. Sorry if I did. I've also not really documented any of the specifics of how I wired it together in my build. It was horrible spaghetti (see pics) and you can definitely do better just using the pin allocations in the code to guide you. Best of luck! Use this as a jumping off point to something bigger and better! I know I will!
+
 ---
 
 ## what starseq is
